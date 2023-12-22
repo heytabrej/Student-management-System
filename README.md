@@ -1,10 +1,11 @@
-## Flask-MySQL Application
+# Student Management System
 
-### Introduction
+
+## Introduction
 
 This is a Flask web application with MySQL database integration. The application is designed for managing student information, attendance, and related triggers.
 
-### Features
+## Features
 
 - User authentication and authorization.
 - CRUD operations for student details.
@@ -12,7 +13,7 @@ This is a Flask web application with MySQL database integration. The application
 - Attendance tracking.
 - Trigger log recording.
 
-### Technologies Used
+## Technologies Used
 
 - **Flask:** A web framework for Python.
 - **MySQL:** A relational database management system.
@@ -20,7 +21,7 @@ This is a Flask web application with MySQL database integration. The application
 - **Flask-Login:** User session management.
 - **Werkzeug:** Password hashing.
 
-### Prerequisites
+## Prerequisites
 
 Before running the application, ensure you have the following installed:
 
@@ -29,8 +30,7 @@ Before running the application, ensure you have the following installed:
 - MySQL
 - Required Python packages (install using `pip install -r requirements.txt`)
 
-### Database Setup
-
+## Database Setup
 
 ```bash
 # Create MySQL database
@@ -38,5 +38,3 @@ mysql -u root -e "CREATE DATABASE students;"
 
 # Import SQL file
 mysql -u root students < database.sql
-
-
